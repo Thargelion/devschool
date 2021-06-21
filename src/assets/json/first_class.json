@@ -1,0 +1,28 @@
+{
+  "lessonList": [
+    {
+      "title": "Introducción",
+      "content": "<p>\n    Programar, en esencia, es dar instrucciones a una máquina.\n</p>\n<p>\n    Como cualquier lenguaje, los de programación (y Python obviamente) cuentan con su propio léxico, sintaxis y semántica\n</p>\n<p>\n    Léxico implica que usa ciertas palabras o símbolos especiales para construir sentido\n</p>\n<p>\n    Sintaxis que estos símbolos deben de ser usados en un orden y modo establecido para que tengan sentido \n</p>\n<p>\n    Y semántica que este texto que construimos en base a un léxico y sintaxis tendrá un significado. En este caso \n    interpretado por la máquina.\n</p>\n<p>\n    En este curso aprenderemos a hacer un poco de esto usando un lenguaje muy amigable para el humano como es Python.\n</p>\n<p>\n    Python es un lenguaje que ya lleva <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/History_of_Python\">30 años</a> de historia\n</p>\n<p>Python es un lenguaje multi-paradigma, ya veremos qué significa esto luego, muy flexible.</p><p>\n    Fue diseñado para tener un léxico y una sintaxis reducida. Esto lo vuelve un lenguaje muy fácil de usar.</p><p> ¡Ya veremos!\n</p>"
+    },
+    {
+      "title": "Hola mundo!",
+      "content": "<p>\n    Una puerta de entrada a cada lenguaje es hacer que nos muestre algo en pantalla.\n</p>\n<p>\n    A este ejercicio se le llama hola mundo!, o Hello World! en inglés.\n</p>\n<p>\n    En Python esto se consigue usando una palabra de su léxico: <strong>print</strong>\n</p>\n<p>\n    Print le dice a Python que imprima en pantalla algo.\n</p>\n<p>\n    Este algo en nuestro caso será un texto. Ya lo veremos más adelante pero para escribir texto en python alcanza con \n    usar comillas simples o dobles: \"Hola mundo!\"\n</p>\n<p>\n    Entonces, para escribir en pantalla, en Python basta con escribir: print('Hola Mundo!')\n</p>\n<p>\n    Prueba hacerlo en el editor de texto que hay a tu izquierda y luego haz click en ejecutar.\n</p>\n<p>\n    Habrás visto que debajo ya imprimimos lo que le hemos indicado a Python. Python desde su inicio quiere ser un lenguaje\n    divertido. Por eso trajo su nombre de los Monty Python.\n</p>\n<p>\n    Así que probemos escribir otra cosa como <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=vZw35VUBdzo\">\"It's an ex parrot!\"</a>\n</p>"
+    },
+    {
+      "title": "Variables",
+      "content": "<p>Una de las cosas elementales que se hacen en cualquier lenguaje es almacenar información</p><p>El modo más simple de usarlo es con variables:</p>         <p>Almacenan un valor en memoria</p>          <p>Acceden a este valor mediante un nombre</p>\n            <p>Se asignan de la siguiente forma:</p>\n            <p><strong>nombre</strong> = valor</p>\n            <p>nombre = 'John Cleese'</p>\n            <p>Si imprimo lo que hay en nombre, obtendré la palabra \"Python\"</p><p>Intenta almacenar algo en memoria e imprimirlo mediante print()!</p>"
+    },
+    {
+      "title": "Tipos de datos I",
+      "content": "<p>\n    No todos los valores que pueden almacenarse en memoria tienen las mismas características.\n</p>\n<p>\n    Algunos se usarán para almacenar texto, otros querrán ser usados para almacenar números...\n</p>\n<p>\n    Y otros almacenarán tipos de datos aún más complejos como veremos más adelante.\n</p>\n<p>\n    Es por ello que una variable puede ser de un tipo o type específico.\n</p><ul>\n    <li>\n        <strong>bool</strong> Binario. True o False: binario = True\n    </li>\n    <li>\n        <strong>int</strong> Enteros: entero = 1024\n    </li>\n    <li>\n        <strong>float</strong> Flotantes: flotante = 420.69\n    </li>\n    <li>\n        <strong>text</strong> Es lo que usamos cuando hicimos nuestra primer variable. Una cadena o secuencia de texto: texto = 'holas'\n    </li>\n</ul><p>Probemos ahora imprimir diferentes tipos de variables. Intenta almacenar en una variable diferentes tipos de datos e imprimirlos con print()</p>"
+    },
+    {
+      "title": "Operadores básicos",
+      "content": "<p>\n    Solo almacenar e imprimir cosas en pantalla resulta un poco limitado, ¿no te parece?\n</p>\n<p>\n    ¡Intentemos con otras cosas!\n</p>\n<p>\n    Todo lenguaje de programación cuenta con sus propios operadores matemáticos.\n</p>\n<p>\n    En Python tenemos los siguientes:\n</p>\n<ul>\n    <li>Suma: <strong>+</strong></li>\n    <li>Resta: <strong>-</strong></li>\n    <li>División: <strong>/</strong></li>\n    <li>Multiplicación: <strong>*</strong></li>\n    <li>Potenciación: <strong>**</strong></li>\n    <li>Resto: <strong>%</strong></li>\n</ul>\n<p>\n    Probemos entonces hacer algunas cuentas y ver en pantalla su resultado.\n</p>\n<p>\n    Para una suma nuestra operación puede ser la siguiente: resultado = 20 + 5\n</p>\n<p>\n    Resultado ahora tendrá un valor de 25 y será de tipo int. Podemos imprimirlo con print(resultado)\n</p>\n<p>\n    ¡Prueba con otros tipos de operadores!\n</p>"
+    },
+    {
+      "title": "Operadores con texto",
+      "content": "<p>\n    ¡No solo con números puedes operar en Python!\n</p>\n<p>\n    Podemos sumar o multiplicar texto.\n</p>\n<p>\n    hola_mundo = 'hola' + ' ' + 'mundo!'\n</p>\n<p>\n    Si imprimimos hola_mundo veremos en pantalla: Hola mundo\n</p>\n<p>\n    Pero podemos usar cosas más interesantes como:\n</p>\n<p>\n    nombre = 'Terry Jones'\n</p>\n<p>\n    hola_mundo = 'Hola ' + nombre\n</p>\n<p>\n    print(hola_mundo)\n</p>\n<p>\n    ¡Ahora nuestro saludo es personalizado!\n</p>\n<p>\n    También podemos multiplicar texto usando *\n</p>\n<p>\n    muchos_saludos = 'Hola' * 10\n</p>\n<p>\n    Ahora tendremos diez 'Hola' en nuestra variable!\n</p>\n<p>\n    Imprime y experimenta un poco\n</p>"
+    }
+  ]
+}

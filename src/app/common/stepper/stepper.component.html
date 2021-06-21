@@ -1,0 +1,10 @@
+<mat-horizontal-stepper *ngIf="steps">
+    <mat-step *ngFor="let step of steps">
+        <ng-template matStepLabel>{{step.title}}</ng-template>
+        <ng-template matStepContent>
+            <h2>{{step.title}}</h2>
+            <span [innerHTML]="step.content">{{step.content}}</span>
+            <button mat-raised-button matStepperNext>Next</button>
+        </ng-template>
+    </mat-step>
+</mat-horizontal-stepper>
