@@ -1,5 +1,4 @@
 import {Injectable} from '@angular/core';
-import {CourseRepository} from "./CourseRepository";
 import {Course} from "./Course";
 import {Observable} from "rxjs";
 import {HttpClient} from "@angular/common/http";
@@ -7,7 +6,7 @@ import {HttpClient} from "@angular/common/http";
 @Injectable({
     providedIn: 'root'
 })
-export class JsonCourseService implements CourseRepository {
+export class JsonCourseService {
 
     constructor(private _httpClient: HttpClient) {
     }
