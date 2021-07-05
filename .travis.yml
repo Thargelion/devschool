@@ -1,12 +1,10 @@
 language: node_js
 node_js:
+  - node
   - "11.0"
 cache: npm
 git:
   depth: 3
-branches:
-  only:
-    - main
 before_script:
   - npm install -g @angular/cli
 script:
