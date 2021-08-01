@@ -12,6 +12,8 @@ Dev school is a programming teaching tool with:
 
 Currently, we support json as course manager.
 
+<img width="1440" alt="Captura de pantalla 2021-08-01 a las 17 53 18" src="https://user-images.githubusercontent.com/5816687/127785047-0ec621ea-37d5-4ef2-b16f-a7608e0aeff3.png">
+
 ## Getting Started
 
 ### Editing courses:
