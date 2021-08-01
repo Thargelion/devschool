@@ -2,6 +2,7 @@
 
 ![npm version 14.17.4](https://img.shields.io/badge/node-v14_LTS-blue.svg)
 ![npm version 14.17.4](https://img.shields.io/badge/angular-v12-red.svg)
+[![Build Status](https://travis-ci.com/Thargelion/devschool.svg?branch=main)](https://travis-ci.com/Thargelion/devschool)
 
 ## Index
 

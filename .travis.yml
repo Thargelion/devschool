@@ -1,22 +1,24 @@
 language: node_js
 node_js:
-  - node
-  - "11.0"
+  - 14
 cache: npm
+addons:
+  chrome: stable
+install:
+  - npm install
 git:
   depth: 3
 before_script:
   - npm install -g @angular/cli
 script:
-  - npm i
+  - npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
 jobs:
   include:
     - stage: "Tests"                # naming the Tests stage
       name: "Unit Tests"            # names the first Tests stage job
-      script: ./unit-tests
       deploy:
         provider: releases
         api_key: $GITHUB_OAUTH_TOKEN
-        skip_cleanup: truez
+        skip_cleanup: true
         on:
           tags: true
