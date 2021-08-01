@@ -95,7 +95,7 @@ Feel free to fork and improve!
 [Back to index](#index)
 
 ## Support
-@
+
 Have you enjoyed, made use of devschool? Feel free to pay me a coffee!
 
 [![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_3.svg)](https://cafecito.app/mdepietro)
