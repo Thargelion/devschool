@@ -97,7 +97,7 @@ Feel free to fork and improve!
 
 ## Support
 
-Have you enjoyed, made use of devschool? Feel free to pay me a coffee!
+Have you enjoyed, made use of devschool? Feel free to invite me a coffee!
 
 [![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_3.svg)](https://cafecito.app/mdepietro)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B4141WQ)
