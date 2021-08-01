@@ -5,7 +5,7 @@
 
 ## Index
 
-- [Thans to](#thanks-to)
+- [Thanks to](#thanks-to)
 - [About](#about)
 - [Getting started](#getting-started)
 - [Installing](#installing)
