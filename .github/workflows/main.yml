@@ -25,7 +25,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: 🛠️ npm install and npm run build
         run: |
-          npm i
+          npm i --legacy-peer-deps
           ng build
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
