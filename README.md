@@ -1,7 +1,8 @@
 # Devschool
 
-![npm version 14.17.4](https://img.shields.io/badge/node-v14_LTS-blue.svg)
-![npm version 14.17.4](https://img.shields.io/badge/angular-v12-red.svg)
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
+![node version 16.18.1](https://img.shields.io/badge/node-v16_LTS-blue.svg)
+![angular version 14.17.4](https://img.shields.io/badge/angular-v12-red.svg)
 [![Build Status](https://travis-ci.com/Thargelion/devschool.svg?branch=main)](https://travis-ci.com/Thargelion/devschool)
 
 ## Index
