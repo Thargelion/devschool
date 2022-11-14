@@ -9,20 +9,23 @@ import {PresentationModule} from "./presentation/presentation.module";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {JsonCourseService} from "./presentation/course/json-course.service";
 import {HttpClientModule} from "@angular/common/http";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
     declarations: [
         AppComponent
     ],
-    imports: [
-        BrowserModule,
-        AceIdeModule,
-        BrowserAnimationsModule,
-        MatToolbarModule,
-        PresentationModule,
-        MatGridListModule,
-        HttpClientModule
-    ],
+  imports: [
+    BrowserModule,
+    AceIdeModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    PresentationModule,
+    MatGridListModule,
+    HttpClientModule,
+    PresentationModule,
+    MatCardModule
+  ],
     providers: [
         JsonCourseService
     ],

@@ -1,13 +1,15 @@
 <mat-toolbar color="primary">
-    <mat-toolbar-row>
-        <span>Learning to program with Python</span>
-    </mat-toolbar-row>
+  <mat-toolbar-row>
+    <span>Learning to program with Python</span>
+  </mat-toolbar-row>
 </mat-toolbar>
-<mat-grid-list [cols]="2">
+<mat-card>
+  <mat-grid-list [cols]="2">
     <mat-grid-tile [colspan]="1">
-        <app-platform class="full-wh"></app-platform>
+      <app-ide class="full-wh"></app-ide>
     </mat-grid-tile>
     <mat-grid-tile [colspan]="1">
-        <app-dashboard class="full-wh"></app-dashboard>
+      <app-presentation-dashboard class="full-wh"></app-presentation-dashboard>
     </mat-grid-tile>
-</mat-grid-list>
+  </mat-grid-list>
+</mat-card>
