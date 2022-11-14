@@ -23,7 +23,7 @@ jobs:
           server: ftp.fragua.com.ar
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "./dist/ace-angular/"
+          local-dir: "./dist/devschool_2/"
           server-dir: "public_html/pyschool/"
           exclude: |
             **/.git*
