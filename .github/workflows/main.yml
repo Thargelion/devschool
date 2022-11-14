@@ -25,7 +25,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           local-dir: "./dist/devschool_2/"
-          server-dir: "public_html/pyschool/"
+          server-dir: "/pyschool/"
           port: 9021
           exclude: |
             **/.git*
