@@ -26,6 +26,7 @@ jobs:
           protocol: ftps
           local-dir: "./dist/devschool_2/"
           server-dir: "public_html/pyschool/"
+          port: 9021
           exclude: |
             **/.git*
             **/.git*/**
