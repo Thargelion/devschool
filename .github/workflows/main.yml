@@ -20,9 +20,10 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
-          server: ftp.fragua.com.ar:21
+          server: ftp.fragua.com.ar
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
           local-dir: "./dist/devschool_2/"
           server-dir: "public_html/pyschool/"
           exclude: |
