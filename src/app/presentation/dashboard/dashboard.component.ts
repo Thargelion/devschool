@@ -4,7 +4,7 @@ import {StepData} from "../../common/stepper/StepData";
 import {JsonCourseService} from "../course/json-course.service";
 
 @Component({
-    selector: 'app-dashboard',
+    selector: 'app-presentation-dashboard',
     templateUrl: './dashboard.component.html',
     providers: [{provide: CourseRepository, useExisting: JsonCourseService}],
     styleUrls: ['./dashboard.component.scss']
